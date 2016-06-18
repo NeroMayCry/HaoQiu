@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="已结束"
+                    android:textSize="14sp"
+                    android:elevation="2dp"
+                    android:textColor="@color/textColorWhite"
+                    android:id="@+id/isEnded"
+                    android:gravity="center" />
+
+                <!--
+                <co.lujun.androidtagview.TagContainerLayout
+                    android:id="@+id/isEnded"
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:elevation="2dp"
+                    app:container_border_radius="4dp"
+                    app:container_border_color="#3f51b5"
+                    app:container_background_color="#3f51b5"
+                    app:container_enable_drag="false"
+                    app:container_gravity="center"
+                    app:tag_text_size="13sp"
+                    app:tag_text_color="#ffffff"
+                    app:tag_clickable="false"
+                    app:tag_theme="none"></co.lujun.androidtagview.TagContainerLayout>
+
+                    -->
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="诺维奇"
+                android:textSize="14sp"
+                android:id="@+id/team1League" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1-1"
+                android:textSize="14sp"
+                android:id="@+id/resultLeague" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="埃弗顿"
+                android:textSize="14sp"
+                android:id="@+id/team2League" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

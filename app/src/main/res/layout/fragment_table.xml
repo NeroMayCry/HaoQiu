@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_table"
+    tools:context="com.yiluxiangbei.joey.haoqiusoccer.fragment.TableFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/colorPrimaryLighter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="排名"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleRankStanding1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="球队"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleClubStanding1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="场次"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleGamesStanding1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="胜"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleWinStanding1" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="平"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleDrawStanding1" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="负"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleLoseStanding1" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="净胜球"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleDifStanding1" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="积分"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/titleScoreStanding1" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/table_list"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

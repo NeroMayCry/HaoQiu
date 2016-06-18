@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HaoQiuSoccer</string>
+    <string name="drawer_open">Menu open</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="premier">英格兰足球超级联赛</string>
+    <string name="Bundesliga">德国足球甲级联赛</string>
+    <string name="Laliga">西班牙足球甲级联赛</string>
+    <string name="Seriea">意大利足球甲级联赛</string>
+    <string name="Ligue1">法国足球甲级联赛</string>
+    <string name="CSL">中国足球超级联赛</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

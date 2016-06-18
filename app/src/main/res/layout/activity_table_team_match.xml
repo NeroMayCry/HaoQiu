@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yiluxiangbei.joey.haoqiusoccer.activity.TableTeamMatchActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_team_match"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp"
+        app:title="赛程"
+        app:titleTextColor="@color/textColorWhite"></android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_below="@+id/toolbar_team_match"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/chelsea_012"
+        android:alpha="0.2"/>
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/team_match_swipyrefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_team_match"
+        app:srl_direction="top">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_team_match"
+        android:id="@+id/listview_match"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_below="@+id/listViewMatch"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#bdbdbd"/>
+
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+
+
+</RelativeLayout>
