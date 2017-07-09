@@ -1,2 +1,2 @@
 # HaoQiu
-实践项目，可以查看五大联赛足球赛事最新信息
+A personal practice project with Android.
